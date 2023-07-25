@@ -1,4 +1,4 @@
-const { Client } = require('pg').Client;
+const { Client } = require('pg');
 
 exports.toTest = async () => {
     const pgConnection = new Client()
